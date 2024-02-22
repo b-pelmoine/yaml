@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "features": {
+    "tests": {
+      "description": "Build unit tests",
+      "dependencies": [
+        "catch2"
+      ]
+    }
+  }
+}
